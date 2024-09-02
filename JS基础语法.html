@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var x;
+        let y = 5;
+        const PI = 3.14
+        console.log(x, y, PI);
+        
+
+        let age = 19;
+        if (age > 18) {
+            console.log("成年");
+        } else {
+            console.log("未成年");
+            }
+
+        
+        console.log("for 循环");
+        for (let i = 0; i < 11; i++){
+            console.log(i);
+            
+        }
+
+
+         console.log("while 循环");
+         let count = 1;
+         while(count <= 10) {
+            console.log(count);
+            count++;           
+         }
+
+         console.log("循环关键字");
+         for (var i = 0;i<7;i++) {
+            if (i == 2) {
+                // continue跳过2
+                continue;
+            }
+            if (i == 5) {
+                // break到5终止循环
+                break;
+            }
+            console.log(i);
+        }
+    </script>
+</body>
+</html>
